@@ -1,0 +1,149 @@
+<html>
+
+<head>
+
+<title>PORTFOLIO</title>
+<link rel="stylesheet" type="text/css" href="sty.css">
+
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  
+</head>
+<body>
+    <header class="header" id="navigation-menu">
+        <div class="container">
+          <nav>
+            <a href="#" class="logo"> <img src="Screenshot 2022-12-24 125122.jpg" alt=""> </a>
+    
+            <ul class="nav-menu">
+              <li> <a href="#home" class="nav-link">Home</a> </li>
+              <li> <a href="#main2" class="nav-link">About ME</a> </li>
+              <li> <a href="#main3" class="nav-link">My Professional Skills</a> </li>
+              <li> <a href="#main4" class="nav-link">Goals</a> </li>
+              
+            </ul>
+    
+            <div class="hambuger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <script>
+        const hambuger = document.querySelector('.hambuger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hambuger.addEventListener("click", mobileMenu);
+    
+        function mobileMenu() {
+          hambuger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+    
+        const navLink = document.querySelectorAll('.nav-link');
+        navLink.forEach((n) => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+          hambuger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      </script> 
+<section class="page1">
+    <img src="WhatsApp Image 2022-12-24 at 12.31.54.jpeg" height="350px" width="300px">
+    <div class="wrapper">
+        <div class="static-txt">I'm a</div>
+        <ul class="dynamic-txts">
+        <li><span>WEBDEVELOPER1 </span></li>
+        <li><span>FREELANCER2 </span></li>
+        <li><span>CREATIVETHINKER3 </span></li>
+        <li><span>CHESSPLAYER4 </span></li>
+        </ul>
+    </div>
+    <div class="social-links">
+        <a href="https://www.github.com"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://in.linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="https://www.gmail.com"><ion-icon name="send-outline"></ion-icon></a>
+        
+      </div>
+</section>
+<section class="page2" id="main2">
+    <div class="thisone" id="thisone">         
+   <h3>ABOUT ME</h3>
+   <p>Seeking a position as an Intern in Website Development where extensive experience will be further developed and utilized.</p>
+   <ul>
+       <li><b>Graduated</b> Engineering in the year 2024.</li>
+        <li> <b>  Completed</b> 12th in the year 2019 with a percentage of 90%.</li>
+         <li><b>Completed</b> 10th in the year 2017 with a percentage of 90%..</li>
+   </ul>
+  
+   
+ 
+ </section>
+  <section class="page3" id="main3">
+      <div class="box">
+          
+          
+          <h2>MY SKILLS</h2>
+      </div>
+      <div class="toplayer"></div>
+  <img src="andras-vas-Bd7gNnWJBkU-unsplash.jpg" width="450px",height="700px">
+  <div class="thatone" id="that">
+      <ul><li><b>DESIGN + DEVELOPMENT</b><br>
+        
+
+        Learnt Web Development,Android App Development using the languages of HTML,CSS,JAVASCRIPT,KOTLIN.
+        Worked on the interfaces of VISUALSTUDIOCODE,ANDROIDSTUDIO.
+        Also for the above courses to gain experience Internships are also done
+        Also Experienced in Working with WORDPRESS.com</li><br>
+        <li><b>CYBERSECURITY AND ETHICHAL HACKING</b><br>
+
+            Completed the couses related to cybersecurity and learnt the important essentials required for safety of the system networks.
+            Completed a crucial course related to ethical hacking.
+            Published a paper regarding the Cybersecurity and its essentials </li><br>
+        <li><b>MACHINE LEARNING AND ARTFICIAL LEARNING</b><br>
+
+            Learnt the importance of Machine Learning in the real-life use.
+            Completed a Microsoft Internship Course based the working of AZURE.
+            Hands-on experience regarding this Topic.</li> </ul>
+  </div>
+
+  </section>
+  <section class="page4" id="main4">
+    <h2>MY Goals</h2>
+    <ul class="chart-skills">
+        <div class="semi-donut margin" 
+        style="--percentage : 80; --fill: #FF3D00 ;">
+     HTML5
+   </div>
+   
+   
+   <div class="semi-donut-model-2 margin"
+        style="--percentage : 90; --fill: #039BE5 ;">
+     CSS3
+   </div>
+   
+   
+   <div class="multi-graph margin">
+     JavaScript
+     <div class="graph" data-name="jQuery" 
+          style="--percentage : 80; --fill: #0669AD ;">
+     </div>
+     <div class="graph" data-name="Angular" 
+          style="--percentage : 60; --fill: #E62A39 ;">
+     </div>
+     <div class="graph" data-name="React" 
+          style="--percentage : 30; --fill: #FEDA3E ;">
+     </div>
+   </div>
+  </section>
+  <footer>
+      <div class="foot" id="contact">
+          <h4>Powered by Sreeport</h4>
+          <ion-icon name="logo-stackoverflow"></ion-icon>
+      </div>
+  </footer>
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
